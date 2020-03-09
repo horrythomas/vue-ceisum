@@ -3,22 +3,22 @@
 </template>
 <script>
 export default {
-  name: "WebglView",
-  data() {
+  name: 'WebglView',
+  data () {
     return {
       map: null
-    };
+    }
   },
   methods: {
-    init() {
+    init () {
       if (window.GIS) {
-        this.map = new GIS("cesiumContainer").init();
-        this.$store.dispatch("initMap", this.map);
+        this.map = new GIS('cesiumContainer').init()
+        this.$store.dispatch('initMap', this.map)
       }
     }
   },
-  mounted() {
-    this.init();
+  mounted () {
+    this.init()
   }
-};
+}
 </script>
