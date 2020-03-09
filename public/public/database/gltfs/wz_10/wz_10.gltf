@@ -1,0 +1,1464 @@
+{
+    "accessors": {
+        "accessor_21": {
+            "bufferView": "bufferView_155",
+            "byteOffset": 25668,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 600,
+            "type": "SCALAR"
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 152480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 285,
+            "max": [
+                0.2232,
+                1.3679,
+                1.0802
+            ],
+            "min": [
+                0.0009,
+                -1.3679,
+                -1.0802
+            ],
+            "type": "VEC3"
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 155900,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 285,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_27": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 159320,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 285,
+            "max": [
+                0.4976,
+                0.5657
+            ],
+            "min": [
+                0.2647,
+                0.2884
+            ],
+            "type": "VEC2"
+        },
+        "accessor_48": {
+            "bufferView": "bufferView_155",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 11940,
+            "type": "SCALAR"
+        },
+        "accessor_50": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4387,
+            "max": [
+                2.5206,
+                5.7712,
+                3.2582
+            ],
+            "min": [
+                -2.5206,
+                -8.2833,
+                -0.6029
+            ],
+            "type": "VEC3"
+        },
+        "accessor_52": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 52644,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4387,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_54": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 105288,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 4387,
+            "max": [
+                0.9951,
+                0.9954
+            ],
+            "min": [
+                0.0039,
+                0.0503
+            ],
+            "type": "VEC2"
+        },
+        "accessor_75": {
+            "bufferView": "bufferView_155",
+            "byteOffset": 23880,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 894,
+            "type": "SCALAR"
+        },
+        "accessor_77": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 140384,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 378,
+            "max": [
+                5.9795,
+                5.2684,
+                0.4454
+            ],
+            "min": [
+                -5.8722,
+                -6.1054,
+                -0.006
+            ],
+            "type": "VEC3"
+        },
+        "accessor_79": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 144920,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 378,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_81": {
+            "bufferView": "bufferView_156",
+            "byteOffset": 149456,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 378,
+            "max": [
+                0.9905,
+                0.7206
+            ],
+            "min": [
+                0.326,
+                0.00980002
+            ],
+            "type": "VEC2"
+        },
+        "animAccessor_0": {
+            "bufferView": "bufferView_154",
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7,
+            "type": "SCALAR"
+        },
+        "animAccessor_1": {
+            "bufferView": "bufferView_154",
+            "byteOffset": 28,
+            "componentType": 5126,
+            "count": 7,
+            "type": "VEC3"
+        },
+        "animAccessor_2": {
+            "bufferView": "bufferView_154",
+            "byteOffset": 112,
+            "componentType": 5126,
+            "count": 7,
+            "type": "VEC3"
+        },
+        "animAccessor_3": {
+            "bufferView": "bufferView_154",
+            "byteOffset": 196,
+            "componentType": 5126,
+            "count": 7,
+            "type": "VEC4"
+        },
+        "animAccessor_4": {
+            "bufferView": "bufferView_154",
+            "byteOffset": 308,
+            "componentType": 5126,
+            "count": 7,
+            "type": "VEC3"
+        },
+        "animAccessor_5": {
+            "bufferView": "bufferView_154",
+            "byteOffset": 392,
+            "componentType": 5126,
+            "count": 7,
+            "type": "VEC4"
+        }
+    },
+    "animations": {
+        "animation_0": {
+            "channels": [
+                {
+                    "sampler": "animation_0_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_0_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_0_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_0_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_0_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_0_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_1": {
+            "channels": [
+                {
+                    "sampler": "animation_1_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_1_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_1_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_1_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_1_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_1_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_10": {
+            "channels": [
+                {
+                    "sampler": "animation_10_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_10_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_10_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_10_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_10_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_10_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_11": {
+            "channels": [
+                {
+                    "sampler": "animation_11_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_11_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_11_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_11_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_11_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_11_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_12": {
+            "channels": [
+                {
+                    "sampler": "animation_12_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_12_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_12_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_12_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_12_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_12_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_13": {
+            "channels": [
+                {
+                    "sampler": "animation_13_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_13_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_13_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_13_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_13_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_13_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_14": {
+            "channels": [
+                {
+                    "sampler": "animation_14_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_14_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_14_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_14_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_14_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_14_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_15": {
+            "channels": [
+                {
+                    "sampler": "animation_15_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_15_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_15_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_15_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_15_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_15_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_16": {
+            "channels": [
+                {
+                    "sampler": "animation_16_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_16_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_16_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_16_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_16_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_16_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_17": {
+            "channels": [
+                {
+                    "sampler": "animation_17_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_17_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_17_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_17_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_17_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_17_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_2": {
+            "channels": [
+                {
+                    "sampler": "animation_2_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_2_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_2_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_2_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_2_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_2_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_3": {
+            "channels": [
+                {
+                    "sampler": "animation_3_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_3_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_3_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_3_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_3_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_3_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_4": {
+            "channels": [
+                {
+                    "sampler": "animation_4_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_4_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_4_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_4_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_4_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_4_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_5": {
+            "channels": [
+                {
+                    "sampler": "animation_5_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_5_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_5_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_5_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_5_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_5_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_6": {
+            "channels": [
+                {
+                    "sampler": "animation_6_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_6_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_6_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_6_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_6_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_6_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_7": {
+            "channels": [
+                {
+                    "sampler": "animation_7_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_7_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_7_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_7_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_7_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_7_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_8": {
+            "channels": [
+                {
+                    "sampler": "animation_8_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_8_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_8_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_tail",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_8_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_8_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_8_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_9": {
+            "channels": [
+                {
+                    "sampler": "animation_9_scale_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_9_translation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_9_rotation_sampler",
+                    "target": {
+                        "id": "node-wz_10_prop",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_5",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_4"
+            },
+            "samplers": {
+                "animation_9_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_9_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_9_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        }
+    },
+    "asset": {
+        "generator": "collada2gltf@d78daf1e7950e6c22fe6bec1d07965e8a302e90d",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": 1
+    },
+    "bufferViews": {
+        "bufferView_154": {
+            "buffer": "wz_10",
+            "byteLength": 504,
+            "byteOffset": 0
+        },
+        "bufferView_155": {
+            "buffer": "wz_10",
+            "byteLength": 26868,
+            "byteOffset": 504,
+            "target": 34963
+        },
+        "bufferView_156": {
+            "buffer": "wz_10",
+            "byteLength": 161600,
+            "byteOffset": 27372,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "wz_10": {
+            "byteLength": 188972,
+            "type": "arraybuffer",
+            "uri": "wz_10.bin"
+        }
+    },
+    "images": {
+        "wz_10_png": {
+            "name": "wz_10_png",
+            "uri": "images/0_wz_10.png"
+        }
+    },
+    "materials": {
+        "_3___Default": {
+            "name": "_3___Default",
+            "technique": "technique0",
+            "values": {
+                "ambient": "texture_wz_10_png",
+                "diffuse": "texture_wz_10_png",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 0,
+                "specular": [
+                    0.9,
+                    0.9,
+                    0.9,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "geom-wz_10_body": {
+            "name": "wz_10_body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_52",
+                        "POSITION": "accessor_50",
+                        "TEXCOORD_0": "accessor_54"
+                    },
+                    "indices": "accessor_48",
+                    "material": "_3___Default",
+                    "mode": 4
+                }
+            ]
+        },
+        "geom-wz_10_prop": {
+            "name": "wz_10_prop",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_79",
+                        "POSITION": "accessor_77",
+                        "TEXCOORD_0": "accessor_81"
+                    },
+                    "indices": "accessor_75",
+                    "material": "_3___Default",
+                    "mode": 4
+                }
+            ]
+        },
+        "geom-wz_10_tail": {
+            "name": "wz_10_tail",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23",
+                        "TEXCOORD_0": "accessor_27"
+                    },
+                    "indices": "accessor_21",
+                    "material": "_3___Default",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node-wz_10_body": {
+            "children": [],
+            "matrix": [
+                0.0126393,
+                -0.999918,
+                -0.00204706,
+                0,
+                0.99992,
+                0.0126379,
+                0.000696554,
+                0,
+                -0.000670626,
+                -0.0020557,
+                0.999998,
+                0,
+                2.28524,
+                -2.82165,
+                2.91019,
+                1
+            ],
+            "meshes": [
+                "geom-wz_10_body"
+            ],
+            "name": "wz_10_body"
+        },
+        "node-wz_10_prop": {
+            "children": [
+                "node_4"
+            ],
+            "name": "wz_10_prop",
+            "rotation": [
+                0.000966978,
+                0.000483597,
+                -0.702624,
+                0.711561
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "translation": [
+                2.37726,
+                -2.82322,
+                5.81226
+            ]
+        },
+        "node-wz_10_tail": {
+            "children": [],
+            "meshes": [
+                "geom-wz_10_tail"
+            ],
+            "name": "wz_10_tail",
+            "rotation": [
+                0.000966978,
+                0.000483597,
+                -0.702624,
+                0.711561
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "translation": [
+                -5.26571,
+                -3.3499,
+                5.91757
+            ]
+        },
+        "node_0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "EnvironmentAmbientLight"
+        },
+        "node_4": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -0.0944717,
+                0,
+                1
+            ],
+            "meshes": [
+                "geom-wz_10_prop"
+            ],
+            "name": ""
+        },
+        "node_5": {
+            "children": [
+                "node_0",
+                "node-wz_10_tail",
+                "node-wz_10_body",
+                "node-wz_10_prop"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "wz_100FS",
+            "vertexShader": "wz_100VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_5"
+            ]
+        }
+    },
+    "shaders": {
+        "wz_100FS": {
+            "type": 35632,
+            "uri": "wz_100FS.glsl"
+        },
+        "wz_100VS": {
+            "type": 35633,
+            "uri": "wz_100VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_wz_10_png": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "wz_10_png",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}

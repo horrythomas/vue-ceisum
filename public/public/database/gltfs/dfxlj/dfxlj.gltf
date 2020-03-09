@@ -1,0 +1,330 @@
+{
+    "accessors": {
+        "accessor_21": {
+            "bufferView": "bufferView_29",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 7092,
+            "type": "SCALAR"
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2791,
+            "max": [
+                8.9847,
+                12.3254,
+                5.7253
+            ],
+            "min": [
+                -8.677,
+                -12.3253,
+                0.8305
+            ],
+            "type": "VEC3"
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 33492,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2791,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_27": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 66984,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 2791,
+            "max": [
+                0.9896,
+                0.997
+            ],
+            "min": [
+                0.006,
+                0.00510001
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@d78daf1e7950e6c22fe6bec1d07965e8a302e90d",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": 1
+    },
+    "bufferViews": {
+        "bufferView_29": {
+            "buffer": "dfxlj",
+            "byteLength": 14184,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_30": {
+            "buffer": "dfxlj",
+            "byteLength": 89312,
+            "byteOffset": 14184,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "dfxlj": {
+            "byteLength": 103496,
+            "type": "arraybuffer",
+            "uri": "dfxlj.bin"
+        }
+    },
+    "images": {
+        "E_2C_png": {
+            "name": "E_2C_png",
+            "uri": "images/0_E_2C.png"
+        }
+    },
+    "materials": {
+        "_3___Default": {
+            "name": "_3___Default",
+            "technique": "technique0",
+            "values": {
+                "ambient": "texture_E_2C_png",
+                "diffuse": "texture_E_2C_png",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 0,
+                "specular": [
+                    0.9,
+                    0.9,
+                    0.9,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "geom-Cylinder00": {
+            "name": "Cylinder00",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23",
+                        "TEXCOORD_0": "accessor_27"
+                    },
+                    "indices": "accessor_21",
+                    "material": "_3___Default",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node-Cylinder00": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "geom-Cylinder00"
+            ],
+            "name": "Cylinder00"
+        },
+        "node_0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "EnvironmentAmbientLight"
+        },
+        "node_2": {
+            "children": [
+                "node_0",
+                "node-Cylinder00"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "dfxlj0FS",
+            "vertexShader": "dfxlj0VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_2"
+            ]
+        }
+    },
+    "shaders": {
+        "dfxlj0FS": {
+            "type": 35632,
+            "uri": "dfxlj0FS.glsl"
+        },
+        "dfxlj0VS": {
+            "type": 35633,
+            "uri": "dfxlj0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_E_2C_png": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "E_2C_png",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}

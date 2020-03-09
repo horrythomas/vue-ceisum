@@ -1,0 +1,940 @@
+{
+    "accessors": {
+        "accessor_21": {
+            "bufferView": "bufferView_92",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 4068,
+            "type": "SCALAR"
+        },
+        "accessor_23": {
+            "bufferView": "bufferView_93",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1567,
+            "max": [
+                1.5343,
+                4.0158,
+                2.1466
+            ],
+            "min": [
+                -1.5343,
+                -4.1113,
+                0.0058
+            ],
+            "type": "VEC3"
+        },
+        "accessor_25": {
+            "bufferView": "bufferView_93",
+            "byteOffset": 18804,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1567,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_27": {
+            "bufferView": "bufferView_93",
+            "byteOffset": 37608,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 1567,
+            "max": [
+                0.9966,
+                0.994
+            ],
+            "min": [
+                0.325,
+                0.4117
+            ],
+            "type": "VEC2"
+        },
+        "accessor_48": {
+            "bufferView": "bufferView_92",
+            "byteOffset": 8136,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 9312,
+            "type": "SCALAR"
+        },
+        "accessor_50": {
+            "bufferView": "bufferView_93",
+            "byteOffset": 50144,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4287,
+            "max": [
+                1.37,
+                0.8532,
+                4.4761
+            ],
+            "min": [
+                -1.37,
+                -3.415,
+                1.9473
+            ],
+            "type": "VEC3"
+        },
+        "accessor_52": {
+            "bufferView": "bufferView_93",
+            "byteOffset": 101588,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4287,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_54": {
+            "bufferView": "bufferView_93",
+            "byteOffset": 153032,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 4287,
+            "max": [
+                0.9971,
+                0.9967
+            ],
+            "min": [
+                0.0042,
+                0.00490004
+            ],
+            "type": "VEC2"
+        },
+        "animAccessor_0": {
+            "bufferView": "bufferView_91",
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 5,
+            "type": "SCALAR"
+        },
+        "animAccessor_1": {
+            "bufferView": "bufferView_91",
+            "byteOffset": 20,
+            "componentType": 5126,
+            "count": 5,
+            "type": "VEC3"
+        },
+        "animAccessor_2": {
+            "bufferView": "bufferView_91",
+            "byteOffset": 80,
+            "componentType": 5126,
+            "count": 5,
+            "type": "VEC3"
+        },
+        "animAccessor_3": {
+            "bufferView": "bufferView_91",
+            "byteOffset": 140,
+            "componentType": 5126,
+            "count": 5,
+            "type": "VEC4"
+        }
+    },
+    "animations": {
+        "animation_0": {
+            "channels": [
+                {
+                    "sampler": "animation_0_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_0_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_0_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_0_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_0_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_0_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_1": {
+            "channels": [
+                {
+                    "sampler": "animation_1_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_1_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_1_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_1_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_1_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_1_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_2": {
+            "channels": [
+                {
+                    "sampler": "animation_2_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_2_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_2_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_2_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_2_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_2_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_3": {
+            "channels": [
+                {
+                    "sampler": "animation_3_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_3_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_3_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_3_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_3_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_3_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_4": {
+            "channels": [
+                {
+                    "sampler": "animation_4_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_4_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_4_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_4_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_4_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_4_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_5": {
+            "channels": [
+                {
+                    "sampler": "animation_5_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_5_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_5_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_5_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_5_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_5_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_6": {
+            "channels": [
+                {
+                    "sampler": "animation_6_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_6_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_6_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_6_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_6_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_6_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_7": {
+            "channels": [
+                {
+                    "sampler": "animation_7_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_7_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_7_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_7_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_7_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_7_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        },
+        "animation_8": {
+            "channels": [
+                {
+                    "sampler": "animation_8_scale_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": "animation_8_translation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": "animation_8_rotation_sampler",
+                    "target": {
+                        "id": "node-Box005",
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "parameters": {
+                "TIME": "animAccessor_0",
+                "rotation": "animAccessor_3",
+                "scale": "animAccessor_1",
+                "translation": "animAccessor_2"
+            },
+            "samplers": {
+                "animation_8_rotation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "rotation"
+                },
+                "animation_8_scale_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "scale"
+                },
+                "animation_8_translation_sampler": {
+                    "input": "TIME",
+                    "interpolation": "LINEAR",
+                    "output": "translation"
+                }
+            }
+        }
+    },
+    "asset": {
+        "generator": "collada2gltf@d78daf1e7950e6c22fe6bec1d07965e8a302e90d",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": 1
+    },
+    "bufferViews": {
+        "bufferView_91": {
+            "buffer": "SA_8",
+            "byteLength": 220,
+            "byteOffset": 0
+        },
+        "bufferView_92": {
+            "buffer": "SA_8",
+            "byteLength": 26760,
+            "byteOffset": 220,
+            "target": 34963
+        },
+        "bufferView_93": {
+            "buffer": "SA_8",
+            "byteLength": 187328,
+            "byteOffset": 26980,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "SA_8": {
+            "byteLength": 214308,
+            "type": "arraybuffer",
+            "uri": "SA_8.bin"
+        }
+    },
+    "images": {
+        "SA8_png": {
+            "name": "SA8_png",
+            "uri": "images/0_SA8.png"
+        }
+    },
+    "materials": {
+        "default": {
+            "name": "default",
+            "technique": "technique0",
+            "values": {
+                "ambient": "texture_SA8_png",
+                "diffuse": "texture_SA8_png",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 0,
+                "specular": [
+                    0.9,
+                    0.9,
+                    0.9,
+                    1
+                ]
+            }
+        },
+        "default_1": {
+            "name": "default",
+            "technique": "technique0",
+            "values": {
+                "ambient": "texture_SA8_png",
+                "diffuse": "texture_SA8_png",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 0,
+                "specular": [
+                    0.9,
+                    0.9,
+                    0.9,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "geom-Box004": {
+            "name": "Box004",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_25",
+                        "POSITION": "accessor_23",
+                        "TEXCOORD_0": "accessor_27"
+                    },
+                    "indices": "accessor_21",
+                    "material": "default",
+                    "mode": 4
+                }
+            ]
+        },
+        "geom-Box005": {
+            "name": "Box005",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_52",
+                        "POSITION": "accessor_50",
+                        "TEXCOORD_0": "accessor_54"
+                    },
+                    "indices": "accessor_48",
+                    "material": "default_1",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node-Box004": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "geom-Box004"
+            ],
+            "name": "Box004"
+        },
+        "node-Box005": {
+            "children": [
+                "node_3"
+            ],
+            "name": "Box005",
+            "rotation": [
+                -8.68878e-008,
+                -1.63421e-010,
+                0.00188082,
+                0.999998
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "translation": [
+                0,
+                -0.850173,
+                2.03188
+            ]
+        },
+        "node_0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "EnvironmentAmbientLight"
+        },
+        "node_3": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.850173,
+                -2.03188,
+                1
+            ],
+            "meshes": [
+                "geom-Box005"
+            ],
+            "name": ""
+        },
+        "node_4": {
+            "children": [
+                "node_0",
+                "node-Box004",
+                "node-Box005"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "SA_80FS",
+            "vertexShader": "SA_80VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_4"
+            ]
+        }
+    },
+    "shaders": {
+        "SA_80FS": {
+            "type": 35632,
+            "uri": "SA_80FS.glsl"
+        },
+        "SA_80VS": {
+            "type": 35633,
+            "uri": "SA_80VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_SA8_png": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "SA8_png",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}
